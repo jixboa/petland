@@ -5,24 +5,23 @@ import { Textarea, Button, Input } from "@material-tailwind/react";
 export default function Contact() {
   return (
     <>
-      <section className="bg-white py-20 " id="contact">
+      <section className="bg-blue-gray-600 py-20 " id="contact">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-gray-800 mb-8">Contact Us</h2>
+          <h2 className="text-3xl font-bold text-white mb-8">Contact Us</h2>
           <form className="max-w-md mx-auto space-y-4">
-            <div>
-              <Input id="name" label="Full name" type="text" />
+            <div className="">
+              <Input label="Full name" color="white" className="" />
             </div>
             <div>
-              <Input id="email" label="Email" type="email" />
+              <Input color="white" label="Email" type="email" />
             </div>
             <div>
-              <Textarea
-                id="message"
-                placeholder="Enter your message"
-                rows={5}
-              />
+              <Textarea id="message" rows={5} />
             </div>
-            <Button className="px-6 py-3" type="submit" variant="filled">
+            <Button
+              className="px-6 py-3 bg-yellow-700"
+              type="submit"
+              variant="filled">
               Submit
             </Button>
           </form>

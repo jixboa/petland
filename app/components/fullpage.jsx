@@ -259,6 +259,7 @@ export default function FullPage() {
                 id="message"
                 placeholder="Enter your message"
                 rows={5}
+                color="white"
               />
             </div>
             <Button

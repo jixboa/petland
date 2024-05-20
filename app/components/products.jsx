@@ -24,7 +24,7 @@ export default function Products() {
                 alt="Dog Bed"
                 className="rounded-lg object-cover"
                 height={300}
-                src="/placeholder.svg"
+                src="/images/dog-bed.jpg"
                 style={{
                   aspectRatio: "300/300",
                   objectFit: "cover",
@@ -55,7 +55,7 @@ export default function Products() {
                 alt="Dog Toy"
                 className="rounded-lg object-cover"
                 height={300}
-                src="/placeholder.svg"
+                src="/images/dog-toy.jpg"
                 style={{
                   aspectRatio: "300/300",
                   objectFit: "cover",
@@ -86,7 +86,7 @@ export default function Products() {
                 alt="Dog Food"
                 className="rounded-lg object-cover"
                 height={300}
-                src="/placeholder.svg"
+                src="/images/dog-food.jpg"
                 style={{
                   aspectRatio: "300/300",
                   objectFit: "cover",

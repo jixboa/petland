@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function NewComponent() {
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-blue-600 shadow-sm dark:bg-gray-950 dark:shadow-none">
+    <header className="fixed top-0 left-0 w-full z-50 bg-blue-gray-800 shadow-sm dark:bg-gray-950 dark:shadow-none">
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between h-16">
         <Link
           className="flex items-center gap-2 text-lg font-semibold"
