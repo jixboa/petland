@@ -28,7 +28,7 @@ export default function Services() {
                 Keep your pet looking their best with our professional grooming
                 services.
               </p>
-              <Button size="sm" variant="link">
+              <Button size="sm" variant="filled">
                 Learn More
               </Button>
             </div>
@@ -41,7 +41,7 @@ export default function Services() {
                 Our experienced veterinarians provide comprehensive care for
                 your pets.
               </p>
-              <Button size="sm" variant="link">
+              <Button size="sm" variant="filled">
                 Learn More
               </Button>
             </div>
@@ -54,7 +54,7 @@ export default function Services() {
                 Shop our wide selection of high-quality pet food, toys, and
                 accessories.
               </p>
-              <Button size="sm" variant="link">
+              <Button size="sm" variant="filled">
                 Learn More
               </Button>
             </div>

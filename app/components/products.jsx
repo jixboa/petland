@@ -37,15 +37,15 @@ export default function Products() {
               </div>
               <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-2">
-                  <Button size="sm" variant="outline">
+                  <Button size="sm" variant="outlined">
                     -
                   </Button>
                   <span className="text-lg font-bold">1</span>
-                  <Button size="sm" variant="outline">
+                  <Button size="sm" variant="outlined">
                     +
                   </Button>
                 </div>
-                <Button size="sm" variant="primary">
+                <Button size="sm" variant="filled">
                   Add to Cart
                 </Button>
               </div>
@@ -68,15 +68,15 @@ export default function Products() {
               </div>
               <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-2">
-                  <Button size="sm" variant="outline">
+                  <Button size="sm" variant="outlined">
                     -
                   </Button>
                   <span className="text-lg font-bold">1</span>
-                  <Button size="sm" variant="outline">
+                  <Button size="sm" variant="outlined">
                     +
                   </Button>
                 </div>
-                <Button size="sm" variant="primary">
+                <Button size="sm" variant="filled">
                   Add to Cart
                 </Button>
               </div>
@@ -99,15 +99,15 @@ export default function Products() {
               </div>
               <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-2">
-                  <Button size="sm" variant="outline">
+                  <Button size="sm" variant="outlined">
                     -
                   </Button>
                   <span className="text-lg font-bold">1</span>
-                  <Button size="sm" variant="outline">
+                  <Button size="sm" variant="outlined">
                     +
                   </Button>
                 </div>
-                <Button size="sm" variant="primary">
+                <Button size="sm" variant="filled">
                   Add to Cart
                 </Button>
               </div>

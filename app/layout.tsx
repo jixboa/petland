@@ -31,7 +31,10 @@ export default function RootLayout({
       <body className={inter.className}>
       {/*  <Navigation /> */}
        <NewComponent />
+       <div className="mt-10">
+
        <Banner />
+       </div>
        <Services />
        <Products />
        <Counter />
