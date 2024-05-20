@@ -1,5 +1,6 @@
 "use client";
 
+import { Button } from "@material-tailwind/react";
 import Image from "next/image";
 
 export default function Banner() {
@@ -14,13 +15,16 @@ export default function Banner() {
             <p className="max-w-[600px] text-gray-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               Discover the best products and services for your furry friends.
             </p>
-            <div className="flex flex-col gap-2 min-[400px]:flex-row">
+            <div className="flex flex-col justify-center items-center gap-2 min-[400px]:flex-row">
               {/* <button className="inline-flex bg-yellow-700 items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 rounded-md px-8">
                 Get Started
               </button> */}
-              <button className="inline-flex bg-yellow-600 w-auto items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-11 rounded-md px-8">
+              <Button
+                size="md"
+                className="bg-yellow-700  font-bold"
+                variant="filled">
                 Shop Now
-              </button>
+              </Button>
             </div>
           </div>
           <Image

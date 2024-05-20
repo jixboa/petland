@@ -10,6 +10,7 @@ import Products from "./components/products"
 import Footer from "./components/footer"
 import Contact from "./components/contact"
 import Counter from "./components/counter"
+import Faq from "./components/faq"
 import FullPage from "./components/fullpage"
 
 
@@ -32,12 +33,15 @@ export default function RootLayout({
       {/*  <Navigation /> */}
        <NewComponent />
        <div className="mt-10">
-
        <Banner />
        </div>
        <Services />
        <Products />
        <Counter />
+       <div className="mb-5">
+
+       <Faq />
+       </div>
        <Contact />
        <Footer />
     {/*    <FullPage /> */}
