@@ -7,7 +7,7 @@ export default function Services() {
     <>
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
         <div className="container px-4 md:px-6">
-          <div className="flex flex-col items-center justify-center space-y-4 text-center">
+          <div className="flex flex-col items-center justify-center  space-y-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                 Services for Your Furry Friends
@@ -19,8 +19,8 @@ export default function Services() {
             </div>
           </div>
           <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12">
-            <div className="flex flex-col justify-center space-y-4 rounded-lg bg-white p-6 shadow-lg dark:bg-gray-950 hover:bg-gray-50 dark:hover:bg-gray-900">
-              <div className="flex items-center justify-center bg-gradient-to-r from-[#ffa500] to-[#ff6b6b] p-4 rounded-full">
+            <div className="flex flex-col justify-center items-center space-y-4 rounded-lg bg-white p-6 shadow-lg dark:bg-gray-950 hover:bg-gray-50 dark:hover:bg-gray-900">
+              <div className="flex items-center justify-center  bg-gradient-to-r from-[#ffa500] to-[#ff6b6b] p-4 rounded-full">
                 <PawPrintIcon className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-xl font-bold">Grooming</h3>
@@ -28,11 +28,14 @@ export default function Services() {
                 Keep your pet looking their best with our professional grooming
                 services.
               </p>
-              <Button size="sm" variant="filled">
+              <Button
+                size="sm"
+                className=" w-36 bg-blue-gray-700"
+                variant="filled">
                 Learn More
               </Button>
             </div>
-            <div className="flex flex-col justify-center space-y-4 rounded-lg bg-white p-6 shadow-lg dark:bg-gray-950 hover:bg-gray-50 dark:hover:bg-gray-900">
+            <div className="flex flex-col justify-center items-center space-y-4 rounded-lg bg-white p-6 shadow-lg dark:bg-gray-950 hover:bg-gray-50 dark:hover:bg-gray-900">
               <div className="flex items-center justify-center bg-gradient-to-r from-[#6b8b9e] to-[#4c6983] p-4 rounded-full">
                 <DogIcon className="h-8 w-8 text-white" />
               </div>
@@ -41,11 +44,14 @@ export default function Services() {
                 Our experienced veterinarians provide comprehensive care for
                 your pets.
               </p>
-              <Button size="sm" variant="filled">
+              <Button
+                size="sm"
+                className=" w-36 bg-blue-gray-700"
+                variant="filled">
                 Learn More
               </Button>
             </div>
-            <div className="flex flex-col justify-center space-y-4 rounded-lg bg-white p-6 shadow-lg dark:bg-gray-950 hover:bg-gray-50 dark:hover:bg-gray-900">
+            <div className="flex flex-col justify-center items-center space-y-4 rounded-lg bg-white p-6 shadow-lg dark:bg-gray-950 hover:bg-gray-50 dark:hover:bg-gray-900">
               <div className="flex items-center justify-center bg-gradient-to-r from-[#9b59b6] to-[#8e44ad] p-4 rounded-full">
                 <MenuIcon className="h-8 w-8 text-white" />
               </div>
@@ -54,7 +60,10 @@ export default function Services() {
                 Shop our wide selection of high-quality pet food, toys, and
                 accessories.
               </p>
-              <Button size="sm" variant="filled">
+              <Button
+                size="sm"
+                className=" w-36 bg-blue-gray-700"
+                variant="filled">
                 Learn More
               </Button>
             </div>

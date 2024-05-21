@@ -2,6 +2,7 @@
 
 import { Button } from "@material-tailwind/react";
 import Image from "next/image";
+import { Transition } from "@headlessui/react";
 
 export default function Banner() {
   return (
@@ -9,9 +10,28 @@ export default function Banner() {
       <section className="w-full py-12 md:py-24 lg:py-32 bg-img bg-cover bg-hero-image">
         <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-[1fr_600px] lg:gap-12">
           <div className="space-y-4">
-            <h1 className="text-4xl text-white font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
-              Welcome to Our Pet Shop
-            </h1>
+            {/*  <Transition
+              appear={true}
+              show={true}
+              enter="transition ease-out duration-300"
+              enterFrom="transform opacity-0 scale-10"
+              enterTo="transform opacity-100 scale-100"
+              leave="transition ease-in duration-75"
+              leaveFrom="transform opacity-100 scale-100"
+              leaveTo="transform opacity-0 scale-10"> */}
+            <Transition
+              appear={true}
+              show={true}
+              enter="transition ease-out duration-100"
+              enterFrom="transform opacity-0 scale-0.1 transform-origin top left"
+              enterTo="transform opacity-100 scale-1.0 transform-origin top left"
+              leave="transition ease-in duration-200"
+              leaveFrom="transform opacity-100 scale-1.0 transform-origin top left"
+              leaveTo="transform opacity-0 scale-0.1 transform-origin top left">
+              <h1 className="text-4xl text-white font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
+                Welcome to Our Pet Shop
+              </h1>
+            </Transition>
             <p className="max-w-[600px] text-gray-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               Discover the best products and services for your furry friends.
             </p>
