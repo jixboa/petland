@@ -5,7 +5,7 @@ import { Textarea, Button, Input } from "@material-tailwind/react";
 export default function Contact() {
   return (
     <>
-      <section className="bg-blue-gray-600 py-20 " id="contact">
+      <section id="contact-section" className="bg-blue-gray-600 py-20 ">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-white mb-8">Contact Us</h2>
           <form className="max-w-md mx-auto space-y-4">

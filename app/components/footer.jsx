@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="flex min-h-[100dvh] flex-col">
+    <div className="flex  flex-col">
       <main className="flex-1" />
       <footer className="bg-gradient-to-r from-blue-gray-700 to-blue-gray-900 dark:bg-gray-950 py-10">
         <div className="container mx-auto max-w-7xl px-4 md:px-6">

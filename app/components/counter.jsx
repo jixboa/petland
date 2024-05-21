@@ -1,6 +1,6 @@
 export default function Counter() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32">
+    <section id="counter-section" className="w-full py-12 md:py-24 lg:py-32">
       <div className="container grid gap-6 px-4 md:px-6 lg:grid-cols-4 lg:gap-8">
         <div className="flex flex-col items-start gap-2 rounded-lg border border-blue-gray-700 bg-white p-4 shadow-md transition-colors hover:border-gray-300 dark:border-gray-800 dark:bg-gray-950 dark:hover:border-gray-700">
           <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 dark:bg-gray-800">

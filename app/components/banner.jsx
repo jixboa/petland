@@ -7,7 +7,9 @@ import { Transition } from "@headlessui/react";
 export default function Banner() {
   return (
     <>
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-img bg-cover bg-hero-image">
+      <section
+        id="home"
+        className="w-full py-12 md:py-24 lg:py-32 bg-img bg-cover bg-hero-image">
         <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-[1fr_600px] lg:gap-12">
           <div className="space-y-4">
             {/*  <Transition

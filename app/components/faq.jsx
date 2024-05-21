@@ -14,6 +14,7 @@ export default function Faq() {
   return (
     <>
       <Accordion
+        id="faq-section"
         open={open === 1}
         className="mb-2 rounded-lg border border-blue-gray-100 px-4">
         <AccordionHeader
