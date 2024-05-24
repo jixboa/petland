@@ -10,7 +10,8 @@ import Footer from "./components/footer"
 import Contact from "./components/contact"
 import Counter from "./components/counter"
 import Faq from "./components/faq"
-import FullPage from "./components/fullpage"
+import Home from "./components/home"
+//import FullPage from "./components/fullpage"
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -31,7 +32,7 @@ export default function RootLayout({
       <body className={inter.className}>
 
        <Navigation />
-       <div className="mt-10">
+       {/* <div className="mt-10">
        <Banner />
        </div>
        <Services />
@@ -41,10 +42,12 @@ export default function RootLayout({
 
        <Faq />
        </div>
-       <Contact />
+       <Contact /> */}
+     
+
+        {children}
        <Footer />
-    {/*    <FullPage /> */}
-        {children}</body>
+        </body>
     </html>
  
   );

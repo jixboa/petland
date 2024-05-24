@@ -4,7 +4,7 @@ import { Button } from "@material-tailwind/react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 
-export default function Products() {
+export default function ProductClient() {
   const router = useRouter();
   return (
     <>
@@ -117,19 +117,6 @@ export default function Products() {
               </div>
             </div>
           </div>
-        </div>
-        <div className=" flex flex-row items-center justify-center">
-          <Button
-            className="bg-yellow-800 text-white"
-            size="lg"
-            type="text"
-            variant="filled"
-            color="white"
-            onClick={(e) => {
-              router.push("/products");
-            }}>
-            View more
-          </Button>
         </div>
       </section>
     </>

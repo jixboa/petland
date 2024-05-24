@@ -3,6 +3,7 @@
 import { Button } from "@material-tailwind/react";
 import Image from "next/image";
 import { Transition } from "@headlessui/react";
+import { Link } from "react-scroll";
 
 export default function Banner() {
   return (
@@ -42,10 +43,12 @@ export default function Banner() {
                 Get Started
               </button> */}
               <Button
-                size="md"
+                size="lg"
                 className="bg-yellow-700  font-bold"
                 variant="filled">
-                Shop Now
+                <Link to="shop-section" smooth={true}>
+                  Shop Now
+                </Link>
               </Button>
             </div>
           </div>
